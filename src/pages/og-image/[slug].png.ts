@@ -44,25 +44,24 @@ const markup = (title: string, pubDate: string) => html`<div
 	</div>
 	<div tw="flex items-center justify-between w-full p-10 border-t border-[#2bbc89] text-xl">
 		<div tw="flex items-center">
-			<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-				<circle fill="#fd7014" cx="50" cy="50" r="50" />
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="64"
-					height="64"
-					viewBox="0 0 24 24"
+			<svg width="64" height="64" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+				<circle fill="#fd7014" cx="16" cy="16" r="14" />
+				<path
 					fill="none"
-					stroke="#ffffff"
-					stroke-width="2"
+					stroke="#fff"
+					stroke-width="1.6"
 					stroke-linecap="round"
 					stroke-linejoin="round"
-					class="feather feather-terminal"
-					x="18"
-					y="18"
-				>
-					<polyline points="4 17 10 11 4 5"></polyline>
-					<line x1="12" y1="19" x2="20" y2="19"></line>
-				</svg>
+					d="m9.2 19.6 4.8-4.8L9.2 10"
+				/>
+				<path
+					fill="none"
+					stroke="#fff"
+					stroke-width="1.6"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M15.6 21.2H22"
+				/>
 			</svg>
 			<p tw="ml-3 font-semibold">${siteConfig.title}</p>
 		</div>
