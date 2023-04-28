@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.cawnj.dev/sitemap-index.xml
+Sitemap: https://cawnj.dev/sitemap-index.xml
